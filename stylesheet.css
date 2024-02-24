@@ -28,6 +28,9 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .navbar a {
@@ -65,6 +68,15 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
+}
+
+/* 2번째 h3요소 */
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 30px;
+}
+
+.home-content h3 span {
+    color: #0ef;
 }
 
 .home-content h1 {
